@@ -1,0 +1,34 @@
+body{
+    background-color: grey;
+}
+/*.beef-button, .chicken-button, .pork-button:hover{opacity: 1;}*/
+.flex-container{
+    background-color: gainsboro;
+    border: 1px solid black;
+    padding: 5px;
+    width: fit-content;
+}
+button{
+    transition-duration: 0.4s;
+    border: 1px solid grey;
+    color: rgb(74, 73, 73);
+}
+.beef-button{
+    border-radius: 5px;
+    padding: 5px 35px;
+    cursor: pointer;
+}
+.chicken-button{
+    border-radius: 5px;
+    padding: 5px 25px;
+    cursor: pointer;
+}
+.pork-button{
+    border-radius: 5px;
+    padding: 5px 35px;
+    cursor: pointer;
+}
+.active, button:hover{
+    background-color:cornflowerblue;
+    color: white;
+}
